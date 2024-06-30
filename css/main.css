@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 /* CSS Document */
 
 html, body {
@@ -59,6 +59,7 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: pink ;
   }
@@ -73,12 +74,16 @@ footer {
 
   #column-3 {
     background-color: darkcyan;
+    width: 100%;
   }
 
   footer {
     background-color: springgreen;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -98,10 +103,13 @@ footer {
 
   #column-3 {
     background-color: red;
+    width: 33.3%;
   }
 
   footer {
     background-color: gold;
   }
-   
+  .col-3 {
+    width: 33.3%;
+  }
 }
